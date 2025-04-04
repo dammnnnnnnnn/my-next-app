@@ -9,13 +9,6 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-  [plugins.inputs]
-    usePnpm = false
-    useYarn = false
-    framework = "nextjs"
-    includeFiles = []
-    excludeFiles = []
-    root = ""
 
 [[headers]]
   for = "/_next/static/*"
